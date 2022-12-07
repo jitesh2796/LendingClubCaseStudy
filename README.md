@@ -1,6 +1,5 @@
 # LendingClubCaseStudy
-> 
-
+> Help the company reduce risky loan applicants by identifying the factors driving the default behaviour
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -11,38 +10,34 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- When a person applies for a loan, there are two types of decisions that could be taken by the company:
+- Loan accepted: If the company approves the loan, there are 3 possible scenarios described below:
+- Fully paid, Current, Charged-off
+- We have done Exploratory data analysis to find out the potential defualter. 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- High interest is directly related to high charge off, can try reducing the interest rate
+- Should issue loans carefully for E,F,G grades which has higher charge off percentage
+- If the installment is over 8% of the monthly income, the chances of charge off are higher, can try keeping the installment percentage low
+- Should issue loans carefully to people from NE state as they have ~60% charge offs.
+- As people who took loan for small business has high chance of charge off, should be cautious while issuing loans to small business.
+- Should also reduce the number of loan for CA State as it has more number of charge offs.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- python - version 3.10
+- pandas - 1.3.4
+- matplotlib - version 3.4.3
+- seaborn -version 0.11.2
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
-
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by @jitesh2796, @GTPrasad - feel free to contact me!
 
 
 <!-- Optional -->
